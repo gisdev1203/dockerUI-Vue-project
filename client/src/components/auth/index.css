@@ -1,0 +1,129 @@
+.smallContainer {
+    max-width:840px;
+    margin:0 auto;
+  }
+  .inputGroup i {
+    line-height: 48px;
+  }
+  .inputGroup input{
+    padding-left : 32px;
+    height:48px;
+    outline: none;
+  }
+  #leftCol img{
+    width:100%;
+    object-fit: cover;
+  }
+  .customBtn {
+    color:#fff;
+    padding:12px 32px;
+    border-radius:32px 0px 0px 32px;
+    display:inline-block;
+    transform : translateY(120px);
+    text-decoration: none;
+    margin-right:-15px;
+  }
+  .linkFlare {
+    color: rgb(241, 82, 115);
+    text-decoration: none;
+  }
+  .btn-accent:hover{
+    background: rgb(244, 142, 163);
+    color:#fff;
+  }
+ 
+  .btn-accent {
+    background: rgb(241, 82, 115);
+    color:#fff;
+  }
+  ::placeholder {
+    color : rgb(170, 170, 170)
+  }
+ 
+  .customBtn:hover,
+  .activeBtn {
+    color: rgb(98, 82, 241);
+    background:#fff;
+    box-shadow: -18px -1px  4px rgba(0,0,0,0.1);
+  }
+
+  #lsHeading {
+    letter-spacing:4px;
+    font-size:12px;
+    background: #ffecf4;
+    color : rgb(227, 43, 115)
+  }
+  .bg-accent-2 {
+    background : #fdf4f8
+  }
+ 
+  /* Custom Switch */
+  .switch-button {
+    margin: 10px auto;
+    border:1px solid #eaddda;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 240px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #fbbdd5;
+    position: relative;
+    padding-right: 120px;
+    position: relative;
+ 
+  }
+  .switch-button:before {
+    content: "Signup";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+    color:rgb(227, 43, 115);
+  }
+  .switch-button-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+  }
+  .switch-button-checkbox:checked + .switch-button-label:before {
+    transform: translateX(120px);
+    transition: transform 300ms linear;
+  }
+  .switch-button-checkbox + .switch-button-label {
+    position: relative;
+    padding: 8px 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+    color:rgb(227, 43, 115);
+  }
+  .switch-button-checkbox + .switch-button-label:before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    transform: translateX(0);
+    transition: transform 300ms;
+ 
+  }
+  .switch-button-checkbox + .switch-button-label .switch-button-label-span {
+    position: relative;
+  }

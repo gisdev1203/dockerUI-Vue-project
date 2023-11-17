@@ -1,0 +1,215 @@
+.contain {
+    min-height: 100vh;
+    /* max-width:1512px; */
+    background: linear-gradient(135deg, #595757 0%, rgba(0, 0, 0, 0.26) 100%);
+}
+.contains {
+    min-height: 100vh;
+    /* max-width:1512px; */
+    background: linear-gradient(135deg, #979090 17.49%, rgba(190, 181, 202, 0.00) 100%);
+}
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.containes {
+    min-height: 100vh;
+    /* max-width:1512px; */
+    background-image: linear-gradient(to bottom , #fff, #fff, #b5b5b5);
+}
+.contain-setting {
+    min-height: 100vh;
+    /* max-width:1512px; */
+    background-color: #fff;
+}
+
+.sec-box-1, .sec-box-2 {
+    width: 360px;
+    height: 160px;
+    border: 16px solid rgba(188, 183, 183, 0.20);
+    border-radius: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+  width: 164px;
+  height: 84px;
+  border-radius: 16px;
+background: #958383;
+}
+.logo_p {
+  color: #FFFEFE;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu-icon {
+    margin: 8px 12px 0 0;
+    cursor: pointer;
+}
+  .menu:hover {
+    background-color: #f4f4f4;
+  }
+
+  .inputgroup {
+    background-color: var(--bs-tertiary-bg);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    text-align: center;
+    white-space: nowrap;
+  }
+.handleinput {
+    border-left: none;
+    background-color: var(--bs-tertiary-bg);
+} 
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .arrow_previous {
+    position: absolute;
+    left: 60px;
+    top: 50vh;
+  }
+.arrow_previous_setting{
+    position: absolute;
+    left: 60px;
+    top: 37vh;
+}
+  .rubish_bin {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+
+.disk-storage {
+  color: #DEDEE0;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.login_name {
+  color: #FFF;
+font-family: Montserrat;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.setting_black {
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #FEFEFE;
+  width: 597px;
+  height: 724px;
+}
+
+.setting_p {
+  margin: 2px 10px 0 0; color: #645F5F;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.check_p {
+  color: #524F4F;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 0 72px;
+  padding: 30px 0;
+}
+.check_p:nth-of-type(1) {
+  
+  margin: 105px 0 0 72px;
+}
+.check_button {
+  border-radius: 9px;
+background: #4E3EE2;
+width: 404px;
+height: 51px;
+margin : 130px 100px 65px;
+}
+.button_p{
+  width: 278px;
+height: 38px;color: #FFFDFD;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.avatar {
+  cursor:pointer;
+}
+.avatar:active {
+  background-color: red;
+}
+
+
+.app_hub {
+  color: #FCFBFB;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 0 0 100px;
+}
+
+.activestatus {
+  padding: 0 30px;
+  margin:30px 0 0 33px; cursor:pointer
+}
+.activestatus:hover {
+  background: linear-gradient(135deg, #595757 0%, rgba(0, 0, 0, 0.26) 100%);
+  width: 80%;
+  border-radius: 16px;
+}
+.activestatus:active {
+  background-color: blue;
+}
